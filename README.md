@@ -45,7 +45,8 @@ BOT WHATSAPP YANG BISA DIGUNAKAN DI TERMUX
 |       ✅       | QURAN                             |
 |       ✅       | PRIMBON                           |
 |       ✅       | KATA CINTA                        |
-ket : ✅ : aktif
+
+keterangan : ✅ : aktif
 
 
 
