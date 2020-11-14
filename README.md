@@ -1,4 +1,4 @@
-## LBOT
+## LBOTT
 BOT WHATSAPP YANG BISA DIGUNAKAN DI TERMUX
 
 
@@ -43,7 +43,7 @@ BOT WHATSAPP YANG BISA DIGUNAKAN DI TERMUX
 |       ✅       | ARTI NAMA                         |
 |       ✅       | SHOLAT                            |
 |       ✅       | QURAN                             |
-|       ✅       | KAMING SUN                        |
+|       ✅       | PRIMBON                           |
 
 ket : ✅ : aktif
 
