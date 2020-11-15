@@ -642,6 +642,28 @@ if (text.includes("+alay")){
 	})
 }
 
+    // ketika seseorang masuk/keluar dari group
+    aruga.onGlobalParicipantsChanged(async (event) => {
+        const host = await aruga.getHostNumber() + '@c.us'
+        // kondisi ketika seseorang diinvite/join group lewat link
+        if (event.action === 'add' && event.who !== host) {
+            await aruga.sendTextWithMentions(event.chat, `Hallo @${event.who.replace('@c.us', '')} \nSelamat Datang diGrup Sini\nSemoga betah ya kak✨`)
+        }
+        // kondisi ketika seseorang dikick/keluar dari group
+        if (event.action === 'remove' && event.who !== host) {
+            await aruga.sendTextWithMentions(event.chat, `Selamat tinggal @${event.who.replace('@c.us', '')}, Semoga tenang dialam sana✨`)
+        }
+    })
+
+    aruga.onIncomingCall(async (callData) => {
+        // ketika seseorang menelpon nomor bot akan mengirim pesan
+        await aruga.sendText(callData.peerJid,
+       'Maaf sedang tidak bisa menerima panggilan.\n\n⚡*LBOT*⚡
+        .then(async () => {
+            // bot akan memblock nomor itu
+            await aruga.contactBlock(callData.peerJid)
+        })
+    })
 
 
 
