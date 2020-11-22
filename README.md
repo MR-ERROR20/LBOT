@@ -25,34 +25,3 @@ BOT WHATSAPP YANG BISA DIGUNAKAN DI TERMUX
 ```
 
 
-# FITUR
-
-| KEADAAN       |               FITUR     |
-| :-----------: | :--------------------------------:  |
-|       ✅       |    PANTUN                         |
-|       ✅       | ANIMEPICT                         |
-|       ✅       | STICKER                           |
-|       ✅       | NULIS                             |
-|       ✅       | QUOTES                            |
-|       ✅       | RANDOM PICT                       |
-|       ✅       | ANIMEPICT                         |
-|       ✅       | LIRIK                             |
-|       ✅       | ALAY                              |
-|       ✅       | YT,YTMP3,IG,TWT DOWNLOADER        |
-|       ✅       | WIKIPEDIA                         |
-|       ✅       | ARTI NAMA                         |
-|       ✅       | SHOLAT                            |
-|       ✅       | QURAN                             |
-|       ✅       | PRIMBON                           |
-|       ✅       | KATA CINTA                        |
-
-keterangan : ✅ : aktif
-
-
-
-
-## THANKS TO
-* [`termux-whatsapp-bot`](https://github.com/fdciabdul/termux-whatsapp-bot)
-
-## DONASI
-* Gopay : 085235664215 LBOT
