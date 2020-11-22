@@ -647,7 +647,7 @@ if (text.includes("+alay")){
         const host = await aruga.getHostNumber() + '@c.us'
         // kondisi ketika seseorang diinvite/join group lewat link
         if (event.action === 'add' && event.who !== host) {
-            await aruga.sendTextWithMentions(event.chat, `Hallo @${event.who.replace('@c.us', '')} \nSelamat Datang diGrup Sini\nSemoga betah ya kak✨`)
+            await aruga.sendTextWithMentions(event.chat, `Hallo @${event.who.replace('@c.us', '')} \nSelamat Datang diGrup Sini\nSemoga betah ya slur❤️`)
         }
         // kondisi ketika seseorang dikick/keluar dari group
         if (event.action === 'remove' && event.who !== host) {
