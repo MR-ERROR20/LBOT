@@ -642,19 +642,7 @@ if (text.includes("+alay")){
 	})
 }
 
-    // ketika seseorang masuk/keluar dari group
-    aruga.onGlobalParicipantsChanged(async (event) => {
-        const host = await aruga.getHostNumber() + '@c.us'
-        // kondisi ketika seseorang diinvite/join group lewat link
-        if (event.action === 'add' && event.who !== host) {
-            await aruga.sendTextWithMentions(event.chat, `Hallo @${event.who.replace('@c.us', '')} \nSelamat Datang diGrup Sini\nSemoga betah ya slur❤️`)
-        }
-        // kondisi ketika seseorang dikick/keluar dari group
-        if (event.action === 'remove' && event.who !== host) {
-            await aruga.sendTextWithMentions(event.chat, `Selamat tinggal @${event.who.replace('@c.us', '')}, Semoga tenang dialam sana✨`)
-        }
-    })
-
+    
 
 
 
